@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import CallbackStateChange from "./components/callback-state-change";
 
 const App = () => {
 	return <div className="container">
@@ -10,6 +11,8 @@ const App = () => {
 				<hr />
 			</div>
 		</div>
+
+		<CallbackStateChange />
 	</div>
 }
 
