@@ -1,6 +1,7 @@
 {
 	"files.associations": {
 		"**/src/index.js": "javascriptreact",
-		"**/src/components/*.js": "javascriptreact"
+		"**/src/components/*.js": "javascriptreact",
+		"**/src/components/draggable-slider/*.js": "javascriptreact"
 	}
 }
