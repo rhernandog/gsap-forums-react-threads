@@ -34,7 +34,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "gsap": "^3.2.6",
+    "gsap": "file:gsap-bonus.tgz",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }

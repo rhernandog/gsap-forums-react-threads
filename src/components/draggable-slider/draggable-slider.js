@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { Draggable } from "gsap/Draggable";
+import { InertiaPlugin } from "gsap/InertiaPlugin";
 import "./draggable-slider-styles.css";
-gsap.registerPlugin(Draggable);
+gsap.registerPlugin(Draggable, InertiaPlugin);
 
 const pictures = [
   {
@@ -93,7 +94,8 @@ const Slider = () => {
       bounds: {
         minX: (window.innerWidth * 0.88) - sliderRef.clientWidth,
         maxX: 0
-      }
+      },
+      inertia: true
     });
   }, []);
 
