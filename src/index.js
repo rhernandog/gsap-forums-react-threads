@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
-import CallbackStateChange from "./components/callback-state-change";
+// import CallbackStateChange from "./components/callback-state-change";
+import WheelDynamicStop from "./components/WheelDynamicStop";
 
 const App = () => {
 	return <div className="container">
@@ -12,9 +13,10 @@ const App = () => {
 			</div>
 		</div>
 
-		<CallbackStateChange />
-	</div>
-}
+		<WheelDynamicStop />
+		{/* <CallbackStateChange /> */}
+	</div>;
+};
 
 render(
 	<App />, document.getElementById("root")
