@@ -12,8 +12,7 @@
     }
   },
   "plugins": [
-    "eslint-plugin-react",
-    "@babel/plugin-proposal-class-properties"
+    "eslint-plugin-react"
   ],
   "rules": {
     "semi": "error",
